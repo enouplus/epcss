@@ -1,0 +1,1 @@
+function toggle(a){var b=document.getElementById(a.getAttribute("data-target"));b.classList.toggle("show")}function togglesidebar(a){var b=document.getElementById(a.getAttribute("data-target")),c=document.getElementById(a.getAttribute("data-overlay"));b.classList.toggle("show"),c.classList.toggle("show")}
